@@ -12,7 +12,8 @@ COPY backup.sh /home/docker/github-backup/backup.sh
 
 # Install prerequisites
 WORKDIR /home/docker/github-backup
-RUN pip3 install --upgrade pip; \
+RUN apk add --no-cache git; \
+    pip3 install --upgrade pip; \
     pip3 install -r requirements.txt; \
     chmod -R 777 /home/docker; \
     chown -R 99:98 /home/docker; \
