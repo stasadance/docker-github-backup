@@ -18,7 +18,7 @@ For authorization you need to create a new personal GitHub token. You can do thi
 
 ![Step 1](https://raw.githubusercontent.com/lnxd/docker-github-backup/master/images/new-token-1.png)
 
-When you click the **Generate new token** button you enter the token creation screen. Here you should give the token a descriptive name and choose its *scopes*, which basically determine what the token is allowed to do.
+When you click the **Generate new token** button you enter the token creation screen. Here you should give the token a descriptive name and choose its _scopes_, which basically determine what the token is allowed to do.
 
 ![Step 2](https://raw.githubusercontent.com/lnxd/docker-github-backup/master/images/new-token-2.png)
 
@@ -29,4 +29,5 @@ To backup public and private repositories you need to select only the **repo** s
 After clicking the **Generate token** button you're presented with the generated token. Remember to store it now, as GitHub won't show it to you anymore!
 
 ## Final notes
-If you notice any bugs, feel free to open an Issue or a pull request. For support with using this on Unraid, you can reach me best via the [support thread](https://forums.unraid.net/topic/104589-support-lnxd-phoenixminer-amd/) on the Unraid Community Forums.
+
+If you notice any bugs, feel free to open an Issue or a pull request.

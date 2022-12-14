@@ -1,6 +1,6 @@
-FROM alpine:3.9
+FROM ubuntu:latest
 
-# Prepare Alpine for use
+# Prepare
 RUN mkdir -p /home/docker/github-backup/config;
 ENV HOME /home/docker
 
@@ -20,5 +20,6 @@ RUN apk add --no-cache python3 py3-pip git; \
     chmod +x backup.sh;
 
 USER 99:98
+
 # Define default command.
 CMD ["./backup.sh"]

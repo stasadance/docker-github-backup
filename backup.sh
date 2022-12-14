@@ -1,8 +1,8 @@
 #!/bin/sh
 
 echo "Project: github-backup"
-echo "Author:  lnxd"
-echo "Base:    Alpine 3.9"
+echo "Author:  stasadance"
+echo "Base:    ubuntu:latest"
 echo "Target:  Unraid"
 echo ""
 
