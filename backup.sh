@@ -2,7 +2,7 @@
 
 echo "Project: github-backup"
 echo "Author:  stasadance"
-echo "Base:    ubuntu:latest"
+echo "Base:    python:alpine3.17"
 echo "Target:  Unraid"
 echo ""
 

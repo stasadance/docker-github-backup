@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='github-backup',
-    version='1.0.0',
+    version='',
     description='',
     url='https://github.com/stasadance/docker-github-backup',
     author='stasadance',
